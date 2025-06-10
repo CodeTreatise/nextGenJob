@@ -1,0 +1,64 @@
+# GitHub Pages Jekyll Configuration
+title: "AI-Era Developer Career Framework"
+description: "A comprehensive professional development system for software engineers navigating the AI revolution"
+url: "https://[your-username].github.io"
+baseurl: "/ai-era-career-framework"
+
+# Theme and rendering
+theme: minima
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Plugins
+plugins:  
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - README.md
+  - 00-STUDY-GUIDE.md
+  - 01-MASTER-INDEX.md
+  - QUICK-REFERENCE.md
+
+# Social and contact
+github_username: [your-username]
+twitter_username: [your-twitter]
+
+# SEO and meta
+author: "AI-Era Career Framework Team"
+keywords: "AI, career development, software engineering, professional development, programming"
+lang: en
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git/
+  - .gitignore
+
+# Collections for better organization
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "_guides"
+      type: "guides"
+    values:
+      layout: "guide"

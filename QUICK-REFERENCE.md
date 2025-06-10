@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Quick Reference Card"
+description: "One-page reading sequence and checkpoints for the AI-Era Career Framework"
+nav_order: 3
+---
+
 # 🎯 QUICK REFERENCE CARD
 ## AI-Era Career Framework - Reading Order & Time Guide
 

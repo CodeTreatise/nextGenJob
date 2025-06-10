@@ -1,7 +1,16 @@
+---
+layout: default
+title: "AI-Era Career Resilience Hub"
+description: "Complete professional development system for technology professionals navigating the AI revolution"
+nav_order: 4
+---
+
 # AI-Era Career Resilience Hub
 ## Complete Professional Development System for Technology Professionals
 
 **🎯 Find Your Path | ⚡ Start Your Transformation | 🚀 Future-Proof Your Career**
+
+> **🌐 Online Version**: This framework is available as a website at [GitHub Pages URL] for easier navigation and mobile access.
 
 ---
 

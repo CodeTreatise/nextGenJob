@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Study Guide - AI-Era Career Framework"
+description: "Complete sequential learning path and document organization for the AI-Era Developer Resilience Framework"
+nav_order: 1
+---
+
 # 📚 AI-Era Career Framework - Complete Study Guide
 ## Sequential Learning Path & Document Organization
 

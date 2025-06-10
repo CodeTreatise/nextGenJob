@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Master Index - Document Directory"
+description: "Complete document library and usage guide for the AI-Era Career Framework"
+nav_order: 2
+---
+
 # 📁 AI-Era Career Framework - Master Index
 ## Complete Document Library with Sequential Organization
 
