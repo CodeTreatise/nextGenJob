@@ -4,57 +4,21 @@ description: "A comprehensive professional development system for software engin
 url: "https://CodeTreatise.github.io"
 baseurl: "/nextGenJob"
 
-# Theme and rendering
+# Theme
 theme: minima
 markdown: kramdown
-highlighter: rouge
-kramdown:
-  syntax_highlighter: rouge
 
 # Plugins
-plugins:  
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-# Navigation
-header_pages:
-  - README.md
-  - 00-STUDY-GUIDE.md
-  - 01-MASTER-INDEX.md
-  - QUICK-REFERENCE.md
-
-# Social and contact
-# github_username: CodeTreatise
-# twitter_username: your_twitter
-
-# SEO and meta
-author: "AI-Era Career Framework Team"
-keywords: "AI, career development, software engineering, professional development, programming"
-lang: en
 
 # Build settings
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
   - .git/
   - .gitignore
-
-# Collections for better organization
-# collections:
-#   guides:
-#     output: true
-#     permalink: /:collection/:name/
-
-# Page defaults
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
