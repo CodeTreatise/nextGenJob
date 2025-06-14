@@ -1,8 +1,8 @@
 # GitHub Pages Jekyll Configuration
 title: "AI-Era Developer Career Framework"
 description: "A comprehensive professional development system for software engineers navigating the AI revolution"
-url: "https://[your-username].github.io"
-baseurl: "/ai-era-career-framework"
+url: "https://CodeTreatise.github.io"
+baseurl: "/nextGenJob"
 
 # Theme and rendering
 theme: minima
