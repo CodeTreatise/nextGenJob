@@ -25,8 +25,8 @@ header_pages:
   - QUICK-REFERENCE.md
 
 # Social and contact
-github_username: [your-username]
-twitter_username: [your-twitter]
+# github_username: CodeTreatise
+# twitter_username: your_twitter
 
 # SEO and meta
 author: "AI-Era Career Framework Team"
@@ -46,19 +46,15 @@ exclude:
   - .gitignore
 
 # Collections for better organization
-collections:
-  guides:
-    output: true
-    permalink: /:collection/:name/
+# collections:
+#   guides:
+#     output: true
+#     permalink: /:collection/:name/
 
+# Page defaults
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
-      layout: "page"
-  - scope:
-      path: "_guides"
-      type: "guides"
-    values:
-      layout: "guide"
+      layout: "default"
